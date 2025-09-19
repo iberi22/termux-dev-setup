@@ -40,7 +40,7 @@ else
 fi
 
 # --- Fase 3: Instalación y Configuración de Ubuntu ---
-info "Iniciando la Fase 3: Instalación de Ubuntu 22.04 LTS..."
+info "Iniciando la Fase 3: Instalación de Ubuntu 24.04 LTS..."
 proot-distro install ubuntu
 info "Creando script de configuración para el entorno interno de Ubuntu..."
 cat <<'EOF' > $HOME/ubuntu-dev-setup.sh
